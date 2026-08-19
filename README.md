@@ -100,7 +100,7 @@ hands-on work.
 
 ## Certifications & Education
 
-- **CompTIA A+** — Certified 2025, valid through March 2028
+- **CompTIA A+** — Certified 2025, valid through April 2028
 - **B.S. Networking Technology** — EDP College
 - Ongoing self-directed study in network defense and cloud infrastructure
 
