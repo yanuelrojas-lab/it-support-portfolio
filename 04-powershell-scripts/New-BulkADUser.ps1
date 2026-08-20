@@ -3,8 +3,8 @@
     Creates Active Directory user accounts in bulk from a CSV file.
 
 .DESCRIPTION
-    Onboarding several people at once — a new class of hires, a seasonal
-    intake — is slow and error-prone through the GUI. This script reads a CSV,
+    Onboarding several people at once -- a new class of hires, a seasonal
+    intake -- is slow and error-prone through the GUI. This script reads a CSV,
     validates each row before touching the directory, creates the accounts, and
     reports what succeeded and what did not.
 
@@ -165,4 +165,4 @@ Write-Host "  Created: $created of $($users.Count)"
 if ($failed.Count -gt 0) {
     Write-Host "  Failed : $($failed -join ', ')" -ForegroundColor Red
 }
-Write-Host "  Group membership is not assigned here — apply role-based groups separately.`n"
+Write-Host "  Group membership is not assigned here -- apply role-based groups separately.`n"
