@@ -7,7 +7,7 @@
     lookups, and refresh planning: make and model, serial number, CPU, memory,
     disk, OS build, and uptime.
 
-    Written to survive a machine being offline — unreachable hosts are recorded
+    Written to survive a machine being offline -- unreachable hosts are recorded
     and reported rather than stopping the run, which matters when scanning a
     list of a hundred workstations overnight.
 
