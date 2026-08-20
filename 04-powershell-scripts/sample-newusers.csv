@@ -1,0 +1,6 @@
+FirstName,LastName,Username,Title,Department,OU,Manager
+Jane,Doe,jdoe,Staff Accountant,Accounting,"OU=Accounting,OU=Users,DC=lab,DC=local",msmith
+Robert,Chen,rchen,Help Desk Technician,IT,"OU=IT,OU=Users,DC=lab,DC=local",tgarcia
+Maria,Lopez,mlopez,Accounts Payable Clerk,Accounting,"OU=Accounting,OU=Users,DC=lab,DC=local",msmith
+David,Okafor,dokafor,Warehouse Associate,Operations,"OU=Operations,OU=Users,DC=lab,DC=local",kpatel
+Sarah,Nguyen,snguyen,HR Generalist,Human Resources,"OU=HR,OU=Users,DC=lab,DC=local",
