@@ -7,7 +7,8 @@ Hands-on documentation of my home lab environment, troubleshooting procedures,
 and technical projects. Built to demonstrate practical skills in Windows
 administration, networking, and end-user support.
 
-Contact information available on request/www.linkedin.com/in/yanuelrojas
+📧 Contact information available on request
+🔗 [linkedin.com/in/yanuelrojas](https://www.linkedin.com/in/yanuelrojas)
 
 ---
 
