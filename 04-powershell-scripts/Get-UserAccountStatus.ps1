@@ -105,7 +105,7 @@ Write-Host "  Bad Logon Count      : $($user.BadLogonCount)"
 Write-Host "  Max Password Age     : $($maxPasswordAge.Days) days"
 
 # A high bad-logon count on an unlocked account usually means a stored
-# credential somewhere — a mapped drive, phone mail profile, or service
+# credential somewhere -- a mapped drive, phone mail profile, or service
 # still using the old password. Worth flagging so the tech looks for it.
 if ($user.BadLogonCount -gt 3 -and -not $user.LockedOut) {
     $issues += "Elevated failed logon count. Check for a cached credential on a phone, mapped drive, or scheduled task."
