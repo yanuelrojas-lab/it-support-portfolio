@@ -4,8 +4,8 @@
 
 .DESCRIPTION
     "My computer is full" and "everything is slow" are frequently the same
-    ticket. This script clears the locations that are safe to empty — Windows
-    temp, user temp, Windows Update cache, and per-user browser caches —
+    ticket. This script clears the locations that are safe to empty -- Windows
+    temp, user temp, Windows Update cache, and per-user browser caches --
     reporting how much each one recovered.
 
     Only well-understood temporary paths are touched. Nothing here removes user
