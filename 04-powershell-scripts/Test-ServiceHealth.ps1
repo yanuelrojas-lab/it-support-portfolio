@@ -10,7 +10,7 @@
     early saves time chasing the wrong cause.
 
     Services set to start automatically but currently stopped are the ones that
-    matter — a stopped service that is set to Manual is usually fine.
+    matter -- a stopped service that is set to Manual is usually fine.
 
 .PARAMETER ComputerName
     Target computer. Defaults to the local machine.
@@ -94,7 +94,7 @@ foreach ($name in $ServiceName) {
             Write-Host "  $label" -ForegroundColor Green
         }
         elseif ($startType -eq 'Auto') {
-            # Set to start automatically but not running — this is the real problem case
+            # Set to start automatically but not running -- this is the real problem case
             Write-Host "  $label  <-- should be running" -ForegroundColor Red
             $stopped += $service
         }
