@@ -76,15 +76,6 @@ in the professional report formats used in the field.
 
 ---
 
-### 🌐 [Networking Fundamentals](./06-networking)
-Network configuration and troubleshooting documentation: subnetting practice,
-TCP/IP diagnostics, switch and router basics, and structured cabling notes from
-hands-on work.
-
-**Skills:** TCP/IP · Subnetting · Network troubleshooting · Structured cabling
-
----
-
 ## Technical Skills
 
 | Area | Tools & Technologies |
